@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SOLUTION ELECT</title>
+    <meta
+      name="description"
+      content="SOLUTION ELECT is an organisation that creates and develops premium mobile applications for Android."
+    />
+    <meta property="og:title" content="SOLUTION ELECT" />
+    <meta
+      property="og:description"
+      content="An organisation that creates and develops premium Android applications."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <style>
+      :root {
+        --ink: #172033;
+        --muted: #5c6578;
+        --line: #e3e6ee;
+        --paper: #f7f8fb;
+        --card: #ffffff;
+        --accent: #1d4ed8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+        color: var(--ink);
+        background: var(--paper);
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .wrap {
+        width: min(760px, calc(100% - 40px));
+        margin: 0 auto;
+      }
+
+      header {
+        padding: 28px 0 8px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+
+      .mark {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        font-size: 14px;
+      }
+
+      .mark span.logo {
+        width: 36px;
+        height: 36px;
+        border-radius: 10px;
+        background: var(--ink);
+        color: white;
+        display: grid;
+        place-items: center;
+        letter-spacing: 0;
+        font-size: 13px;
+      }
+
+      nav a {
+        color: var(--muted);
+        text-decoration: none;
+        margin-left: 18px;
+        font-size: 15px;
+      }
+
+      nav a:hover {
+        color: var(--ink);
+      }
+
+      main {
+        padding-bottom: 64px;
+      }
+
+      .hero {
+        padding: 56px 0 28px;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--accent);
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0 0 16px;
+        font-size: clamp(40px, 7vw, 64px);
+        line-height: 1.05;
+        letter-spacing: -0.03em;
+      }
+
+      .lead {
+        margin: 0;
+        max-width: 38rem;
+        font-size: 20px;
+        color: var(--muted);
+      }
+
+      section {
+        margin-top: 18px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 28px;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 22px;
+        letter-spacing: -0.02em;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      ul {
+        margin: 14px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      li {
+        padding: 12px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      li strong {
+        display: block;
+        margin-bottom: 2px;
+      }
+
+      li span {
+        color: var(--muted);
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        padding: 22px 0 36px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="brand">
+          <div class="mark">
+            <span class="logo" aria-hidden="true">SE</span>
+            SOLUTION ELECT
+          </div>
+          <nav aria-label="Page">
+            <a href="#about">About</a>
+            <a href="#work">Apps</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <div class="hero">
+          <p class="eyebrow">Official organisation website</p>
+          <h1>SOLUTION ELECT</h1>
+          <p class="lead">
+            We are an organisation that creates and develops premium mobile
+            applications for Android.
+          </p>
+        </div>
+
+        <section id="about">
+          <h2>About the organisation</h2>
+          <p>
+            SOLUTION ELECT designs, builds, and publishes Android apps. Our
+            work is focused on finished, premium applications for phones and
+            tablets, prepared for release on Google Play.
+          </p>
+        </section>
+
+        <section id="work">
+          <h2>What we develop</h2>
+          <ul>
+            <li>
+              <strong>Premium Android apps</strong>
+              <span>Complete mobile products made for everyday use.</span>
+            </li>
+            <li>
+              <strong>Clear product design</strong>
+              <span>Simple screens, careful layout, and a finished feel.</span>
+            </li>
+            <li>
+              <strong>Google Play releases</strong>
+              <span>Apps developed to be published on the Play Store.</span>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2026 SOLUTION ELECT. Organisation developing premium Android applications.</p>
+      </footer>
+    </div>
+  </body>
+</html>
